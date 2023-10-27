@@ -16,12 +16,32 @@
         </a>
         <button class="navbar-toggler" type="button"
          data-bs-toggle="collapse" aria-expanded="false"
-         data-bs-target="#navbvarMain">
-<span class="navbar-toggler-icon">
-
-</span>
+         data-bs-target="#navbarMain">
+      <span class="navbar-toggler-icon"></span>
         </button>
+        <div class="collapse navbar-collapse" id="navbarMain">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#" >Home Page</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" 
+                id="menulink" role="button"
+                 data-bs-toggle="dropdown" aria-expanded="false">Cardápio</a>
+                 <ul class="dropdown-menu" aria-labelledby="menulink">
+                    <li>
+                      <a class="dropdown-item">Hamburger</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item">Hot Dog</a>
+                    </li>
+                 </ul>
+            </li>
+          </ul>
+
+        </div>
       </div>
     </nav>
+<script src="./js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
